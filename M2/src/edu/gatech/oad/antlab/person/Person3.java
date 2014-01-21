@@ -1,4 +1,7 @@
 package edu.gatech.oad.antlab.person;
+
+import java.util.Scanner;
+
 /**
  *  A simple class for person 3
  *  returns their name and a
@@ -42,7 +45,12 @@ public class Person3 {
 	 * @return the reversed string
 	 */
 	private String calc(String input) {
-	  //Person 3 put your implementation here
-	  return null;
+		String res = "";
+		StringBuilder build = new StringBuilder();
+		for(int i = input.length()-1; i >= 0; i--){
+			build.append(input.charAt(i));
+		}
+		res = build.toString();
+	  return res;
 	}
 }
