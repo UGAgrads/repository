@@ -1,4 +1,4 @@
-package main.java.edu.gatech.oad.antlab.person;
+package edu.gatech.oad.antlab.person;
 
 import java.awt.List;
 import java.util.ArrayList;
